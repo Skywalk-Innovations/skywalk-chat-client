@@ -1,0 +1,30 @@
+{
+  "name": "skywalk-chat-client",
+  "version": "1.0.0",
+  "description": "A tutorial chat client application",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --mode development --inline --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Skywalk Innovations",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^16.4.14",
+    "@types/react-dom": "^16.0.7",
+    "awesome-typescript-loader": "^5.2.1",
+    "react-hot-loader": "^4.3.11",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.0.3",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-middleware": "^3.4.0",
+    "webpack-dev-server": "^3.1.9",
+    "webpack-hot-middleware": "^2.24.2"
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
